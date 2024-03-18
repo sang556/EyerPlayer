@@ -163,6 +163,9 @@ SET(HEAD_FILES
         EyerAVAudioFifo.hpp
 )
 
+TARGET_LINK_LIBRARIES(EyerAV swresample)
+TARGET_LINK_LIBRARIES(EyerAV swscale)
+
 INSTALL(FILES ${HEAD_FILES} DESTINATION include/EyerAV)
 INSTALL(
         TARGETS EyerAV

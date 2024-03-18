@@ -33,9 +33,30 @@ namespace Eyer
         return 0;
     }
 
+    int EyerPlayer::Pause()
+    {
+        EyerPlayerEvent_Pause * event = new EyerPlayerEvent_Pause();
+        eventControlThread->PushEvent(event);
+        return 0;
+    }
+
+    int EyerPlayer::Resume()
+    {
+        EyerPlayerEvent_Resume * event = new EyerPlayerEvent_Resume();
+        eventControlThread->PushEvent(event);
+        return 0;
+    }
+
     int EyerPlayer::Stop()
     {
         EyerPlayerEvent_Stop * event = new EyerPlayerEvent_Stop();
+        eventControlThread->PushEvent(event);
+        return 0;
+    }
+
+    int EyerPlayer::Seek(double time)
+    {
+        EyerPlayerEvent_Seek * event = new EyerPlayerEvent_Seek();
         eventControlThread->PushEvent(event);
         return 0;
     }

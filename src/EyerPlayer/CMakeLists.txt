@@ -22,7 +22,10 @@ ADD_LIBRARY (
 
 SET(HEAD_FILES
         EyerPlayer.hpp
+        AVDecodeQueueBox.hpp
         )
+
+TARGET_LINK_LIBRARIES(EyerPlayer EyerDecodeQueue)
 
 INSTALL(FILES ${HEAD_FILES} DESTINATION include/EyerPlayer)
 INSTALL(

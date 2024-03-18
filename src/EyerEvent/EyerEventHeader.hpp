@@ -6,5 +6,8 @@
 
 #include "EyerPlayerEvent_Play.hpp"
 #include "EyerPlayerEvent_Stop.hpp"
+#include "EyerPlayerEvent_Pause.hpp"
+#include "EyerPlayerEvent_Resume.hpp"
+#include "EyerPlayerEvent_Seek.hpp"
 
 #endif //EYERPLAYER_EYEREVENTHEADER_HPP

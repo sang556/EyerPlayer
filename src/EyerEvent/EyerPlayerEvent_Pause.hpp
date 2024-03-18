@@ -1,11 +1,11 @@
-#ifndef EYERPLAYER_EVENTREQUEST_PAUSE_HPP
-#define EYERPLAYER_EVENTREQUEST_PAUSE_HPP
+#ifndef EYERPLAYER_EYERPLAYEREVENT_PAUSE_HPP
+#define EYERPLAYER_EYERPLAYEREVENT_PAUSE_HPP
 
-#include "EventRequest.hpp"
+#include "EyerPlayerEvent.hpp"
 
 namespace Eyer
 {
-    class EyerPlayerEvent_Pause : public EventRequest
+    class EyerPlayerEvent_Pause : public EyerPlayerEvent
     {
     public:
         EyerPlayerEvent_Pause();
@@ -13,4 +13,4 @@ namespace Eyer
     };
 }
 
-#endif //EYERPLAYER_EVENTREQUEST_PAUSE_HPP
+#endif //EYERPLAYER_EYERPLAYEREVENT_PAUSE_HPP

@@ -1,15 +1,15 @@
 #ifndef EYERPLAYER_EYERPLAYEREVENT_SEEK_HPP
 #define EYERPLAYER_EYERPLAYEREVENT_SEEK_HPP
 
-#include "EventRequest.hpp"
+#include "EyerPlayerEvent.hpp"
 
 namespace Eyer
 {
-    class EventRequest_Seek : public EventRequest
+    class EyerPlayerEvent_Seek : public EyerPlayerEvent
     {
     public:
-        EventRequest_Seek();
-        ~EventRequest_Seek();
+        EyerPlayerEvent_Seek();
+        ~EyerPlayerEvent_Seek();
     };
 }
 

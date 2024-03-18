@@ -1,13 +1,13 @@
-#include "EventRequest_Seek.hpp"
+#include "EyerPlayerEvent_Seek.hpp"
 
 namespace Eyer
 {
-    EventRequest_Seek::EventRequest_Seek()
+    EyerPlayerEvent_Seek::EyerPlayerEvent_Seek()
     {
         type = EventType::SEEK_REQUEST;
     }
 
-    EventRequest_Seek::~EventRequest_Seek()
+    EyerPlayerEvent_Seek::~EyerPlayerEvent_Seek()
     {
 
     }

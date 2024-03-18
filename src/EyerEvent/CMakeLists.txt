@@ -17,6 +17,15 @@ ADD_LIBRARY (
 
         EyerPlayerEvent_Stop.hpp
         EyerPlayerEvent_Stop.cpp
+
+        EyerPlayerEvent_Pause.hpp
+        EyerPlayerEvent_Pause.cpp
+
+        EyerPlayerEvent_Resume.hpp
+        EyerPlayerEvent_Resume.cpp
+
+        EyerPlayerEvent_Seek.hpp
+        EyerPlayerEvent_Seek.cpp
 )
 
 SET(HEAD_FILES

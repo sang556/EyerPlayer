@@ -1,13 +1,13 @@
-#include "EventRequest_Pause.hpp"
+#include "EyerPlayerEvent_Pause.hpp"
 
 namespace Eyer
 {
-    EventRequest_Pause::EventRequest_Pause()
+    EyerPlayerEvent_Pause::EyerPlayerEvent_Pause()
     {
         type = EventType::PAUSE_REQUEST;
     }
 
-    EventRequest_Pause::~EventRequest_Pause()
+    EyerPlayerEvent_Pause::~EyerPlayerEvent_Pause()
     {
 
     }

@@ -15,7 +15,10 @@ ADD_LIBRARY (
 
 SET(HEAD_FILES
         EyerDecodeQueueHeader.hpp
+        EyerDecodeQueueFFmpeg.hpp
         )
+
+TARGET_LINK_LIBRARIES(EyerDecodeQueue EyerAV)
 
 INSTALL(FILES ${HEAD_FILES} DESTINATION include/EyerDecodeQueue)
 INSTALL(

@@ -14,8 +14,12 @@ namespace Eyer
         ~EyerPlayer();
 
         int SetURL(const EyerString & _url);
+
         int Play();
+        int Pause();
+        int Resume();
         int Stop();
+        int Seek(double time);
 
     private:
         EyerString url;

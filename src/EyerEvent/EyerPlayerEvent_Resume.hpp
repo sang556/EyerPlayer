@@ -1,15 +1,15 @@
-#ifndef EYERPLAYER_EVENTREQUEST_RESUME_HPP
-#define EYERPLAYER_EVENTREQUEST_RESUME_HPP
+#ifndef EYERPLAYER_EYERPLAYEREVENT_RESUME_HPP
+#define EYERPLAYER_EYERPLAYEREVENT_RESUME_HPP
 
-#include "EventRequest.hpp"
+#include "EyerPlayerEvent.hpp"
 
 namespace Eyer {
-    class EventRequest_Resume : public EventRequest
+    class EyerPlayerEvent_Resume : public EyerPlayerEvent
     {
     public:
-        EventRequest_Resume();
-        ~EventRequest_Resume();
+        EyerPlayerEvent_Resume();
+        ~EyerPlayerEvent_Resume();
     };
 }
 
-#endif //EYERPLAYER_EVENTREQUEST_RESUME_HPP
+#endif //EYERPLAYER_EYERPLAYEREVENT_RESUME_HPP
